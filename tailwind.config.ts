@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,33 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for ComidaConecta
+				"conecta": {
+					"green": {
+						"50": "#f0f9f0",
+						"100": "#dcf0dc",
+						"200": "#bde3bd",
+						"300": "#8ccf8c",
+						"400": "#5db35d",
+						"500": "#4CAF50", // Primary green
+						"600": "#327d32",
+						"700": "#2b642b",
+						"800": "#255025",
+						"900": "#214321",
+					},
+					"orange": {
+						"50": "#fff8e9",
+						"100": "#ffeec7",
+						"200": "#ffdc8a",
+						"300": "#ffc44d",
+						"400": "#ffb74d", // Secondary orange
+						"500": "#FF9800", // Primary orange
+						"600": "#e67300",
+						"700": "#cc5c00",
+						"800": "#a44a00",
+						"900": "#873e00",
+					}
 				}
 			},
 			borderRadius: {
@@ -84,11 +112,21 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'scale-in': {
+					'0%': { transform: 'scale(0.95)', opacity: '0' },
+					'100%': { transform: 'scale(1)', opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.3s ease-out',
+				'scale-in': 'scale-in 0.2s ease-out'
 			}
 		}
 	},
