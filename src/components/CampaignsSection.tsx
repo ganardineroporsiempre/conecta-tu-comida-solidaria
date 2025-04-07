@@ -43,7 +43,7 @@ const CampaignsSection = () => {
     <section id="campaigns" className="py-16 bg-gray-50">
       <div className="conecta-container">
         <div className="text-center mb-12">
-          <span className="text-conecta-orange-500 font-semibold">Causas Activas</span>
+          <span className="text-conecta-orange-500 font-semibold text-lg">Causas Activas</span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2 mb-4">
             Campañas que necesitan tu apoyo
           </h2>
