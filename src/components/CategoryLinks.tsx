@@ -2,7 +2,7 @@
 import React from "react";
 import { 
   ShoppingBasket, Droplet, Baby, 
-  ShoppingBag, Package, PercentCircle, Heart 
+  ShoppingBag, Package, Tag, Heart 
 } from "lucide-react";
 
 const categories = [
@@ -33,7 +33,7 @@ const categories = [
   },
   { 
     name: "Productos con descuento", 
-    icon: <PercentCircle className="h-6 w-6 text-conecta-orange-500" />,
+    icon: <Tag className="h-6 w-6 text-conecta-orange-500" />,
     href: "#discounts" 
   },
   { 
