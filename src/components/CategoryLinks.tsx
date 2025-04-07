@@ -1,8 +1,7 @@
-
 import React from "react";
 import { 
   ShoppingBasket, Droplet, Baby, 
-  ShoppingBag, Package, Tag, Heart 
+  ShoppingBag, Package, Tag, Heart, Brush 
 } from "lucide-react";
 
 const categories = [
@@ -40,6 +39,11 @@ const categories = [
     name: "Campañas sociales", 
     icon: <Heart className="h-6 w-6 text-conecta-orange-500" />,
     href: "#campaigns" 
+  },
+  { 
+    name: "Limpieza del Hogar", 
+    icon: <Brush className="h-6 w-6 text-conecta-green-500" />,
+    href: "#cleaning" 
   },
 ];
 
