@@ -8,6 +8,7 @@ import { emergencyCategory } from "./categories/EmergencyCategory";
 import { discountsCategory } from "./categories/DiscountsCategory";
 import { campaignsCategory } from "./categories/CampaignsCategory";
 import { cleaningCategory } from "./categories/CleaningCategory";
+import { personalCareCategory } from "./categories/PersonalCareCategory";
 
 const categories = [
   foodCategory,
@@ -17,6 +18,7 @@ const categories = [
   discountsCategory,
   campaignsCategory,
   cleaningCategory,
+  personalCareCategory,
 ];
 
 const CategoryLinks = () => {
