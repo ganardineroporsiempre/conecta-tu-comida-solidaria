@@ -1,8 +1,11 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, Heart } from "lucide-react";
+
 const Hero = () => {
-  return <div className="relative bg-gradient-to-r from-conecta-green-50 to-conecta-orange-50 overflow-hidden">
+  return (
+    <div className="relative bg-gradient-to-r from-conecta-green-50 to-conecta-orange-50 overflow-hidden">
       <div className="conecta-container py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
@@ -20,7 +23,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-4">
               <Button className="btn-conecta-primary px-6 py-3 text-base flex items-center space-x-2 sm:w-auto w-full">
                 <ShoppingBag className="h-5 w-5 mr-2" />
-                <span>Comprar </span>
+                <span>Comprar Ahora</span>
               </Button>
               <Button className="btn-conecta-outline px-6 py-3 text-base flex items-center space-x-2 sm:w-auto w-full">
                 <Heart className="h-5 w-5 mr-2" />
@@ -44,7 +47,11 @@ const Hero = () => {
           </div>
           <div className="relative hidden md:block animate-scale-in">
             <div className="w-full h-full rounded-2xl overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9" alt="Alimentos frescos" className="w-full h-full object-cover rounded-2xl" />
+              <img
+                src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+                alt="Alimentos frescos"
+                className="w-full h-full object-cover rounded-2xl"
+              />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
               <div className="flex items-center space-x-3">
@@ -72,6 +79,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white to-transparent"></div>
-    </div>;
+    </div>
+  );
 };
+
 export default Hero;
