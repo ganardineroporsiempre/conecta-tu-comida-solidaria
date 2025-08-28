@@ -1,14 +1,9 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { 
-  Facebook, Twitter, Instagram, Mail, Phone, MapPin, Send 
-} from "lucide-react";
-
+import { Facebook, Twitter, Instagram, Mail, Phone, MapPin, Send } from "lucide-react";
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white pt-16 pb-6">
+  return <footer className="bg-gray-900 text-white pt-16 pb-6">
       <div className="conecta-container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
@@ -27,7 +22,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-conecta-green-400 transition-colors">
-                <Twitter className="h-5 w-5" />
+                
               </a>
               <a href="#" className="text-gray-400 hover:text-conecta-green-400 transition-colors">
                 <Instagram className="h-5 w-5" />
@@ -80,10 +75,7 @@ const Footer = () => {
               Recibe actualizaciones sobre nuevas campañas e iniciativas.
             </p>
             <div className="flex space-x-2">
-              <Input 
-                placeholder="Tu email" 
-                className="bg-gray-800 border-gray-700 text-white" 
-              />
+              <Input placeholder="Tu email" className="bg-gray-800 border-gray-700 text-white" />
               <Button className="bg-conecta-orange-500 hover:bg-conecta-orange-600 text-white">
                 <Send className="h-4 w-4" />
               </Button>
@@ -108,8 +100,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

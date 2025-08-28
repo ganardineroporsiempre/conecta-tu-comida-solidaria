@@ -6,14 +6,12 @@ const Hero = () => {
       <div className="conecta-container py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <div className="inline-block bg-conecta-orange-100 text-conecta-orange-600 px-4 py-1.5 rounded-full text-sm font-semibold"> Banco de Alimentos Digital</div>
+            <div className="inline-block bg-conecta-orange-100 text-conecta-orange-600 px-4 py-1.5 rounded-full text-sm font-semibold">PRIMER BANCO DE ALIMENTOS DIGITAL</div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
               Compra alimentos y 
               <span className="text-conecta-orange-500"> ayuda a quien más lo necesita</span>
             </h1>
-            <p className="text-gray-600 text-lg md:text-xl">Una plataforma que conecta  correctamente la abundancia de alimento,  haciendo que el que mas tenga no le sobre, y el que menos tenga no le falte. 
-
-          </p>
+            <p className="text-gray-600 text-lg md:text-xl">Una plataforma que conecta  correctamente la abundancia de alimentos,  haciendo que el que mas tenga no le sobre, y el que menos tenga no le falte. </p>
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-4">
               <Button className="btn-conecta-primary px-6 py-3 text-base flex items-center space-x-2 sm:w-auto w-full">
                 <ShoppingBag className="h-5 w-5 mr-2" />
@@ -24,20 +22,7 @@ const Hero = () => {
                 <span>Donar</span>
               </Button>
             </div>
-            <div className="flex items-center space-x-8 pt-6">
-              <div className="text-center">
-                <p className="text-conecta-green-500 font-bold text-2xl">8,500+</p>
-                <p className="text-gray-500 text-sm">Comidas donadas</p>
-              </div>
-              <div className="text-center">
-                <p className="text-conecta-green-500 font-bold text-2xl">120+</p>
-                <p className="text-gray-500 text-sm">Colaboradores</p>
-              </div>
-              <div className="text-center">
-                <p className="text-conecta-green-500 font-bold text-2xl">40+</p>
-                <p className="text-gray-500 text-sm">Ciudades</p>
-              </div>
-            </div>
+            
           </div>
           <div className="relative hidden md:block animate-scale-in">
             <div className="w-full h-full rounded-2xl overflow-hidden">
