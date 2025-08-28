@@ -2,7 +2,7 @@
 import React from "react";
 import { 
   ShoppingBasket, Droplet, Baby, 
-  ShoppingBag, Package, PercentCircle, Heart 
+  ShoppingBag, Package, PercentCircle, Heart, Home 
 } from "lucide-react";
 
 const categories = [
