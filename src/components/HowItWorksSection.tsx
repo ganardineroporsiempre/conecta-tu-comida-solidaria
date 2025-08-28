@@ -28,7 +28,7 @@ const HowItWorksSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             ¿Cómo funciona?
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">Conecta es una plataforma fácil de usar que conectamos  alimentos con personas que los necesitan, generando un impacto social positivo.</p>
+          <p className="text-gray-600 max-w-3xl mx-auto">Conecta es una plataforma fácil de usar  conectamos  alimentos con personas que los necesitan, generando un impacto social positivo.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
