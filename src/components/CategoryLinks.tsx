@@ -23,7 +23,7 @@ const categories = [
   },
   { 
     name: "Limpieza Hogar", 
-    icon: <Broom className="h-6 w-6 text-conecta-green-500" />,
+    icon: <Home className="h-6 w-6 text-conecta-green-500" />,
     href: "#drinks" 
   },
   { 
