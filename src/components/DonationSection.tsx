@@ -98,7 +98,7 @@ const DonationSection = () => {
                     </li>
                     <li className="flex items-start">
                       <CircleCheck className="h-4 w-4 text-conecta-green-500 mr-2 mt-0.5" />
-                      <span className="text-sm">Leche y productos básicos</span>
+                      <span className="text-sm">Enlatados y productos básicos</span>
                     </li>
                   </ul>
                   <div className="mt-4 text-xl font-bold text-conecta-green-600">
