@@ -57,7 +57,7 @@ const DonationSection = () => {
           <TabsList className="grid w-full grid-cols-3 mb-10">
             <TabsTrigger value="products" className="flex items-center space-x-2">
               <Package className="h-4 w-4" />
-              <span>Donar Productos</span>
+              <span>Donar Alimentos</span>
             </TabsTrigger>
             <TabsTrigger value="money" className="flex items-center space-x-2">
               <DollarSign className="h-4 w-4" />
@@ -65,7 +65,7 @@ const DonationSection = () => {
             </TabsTrigger>
             <TabsTrigger value="subscription" className="flex items-center space-x-2">
               <CalendarClock className="h-4 w-4" />
-              <span>Suscripción</span>
+              <span>Suscripción Solidaria</span>
             </TabsTrigger>
           </TabsList>
 
