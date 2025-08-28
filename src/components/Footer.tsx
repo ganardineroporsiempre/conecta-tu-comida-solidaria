@@ -13,10 +13,7 @@ const Footer = () => {
                 Comida<span className="text-conecta-orange-400">Conecta</span>
               </span>
             </div>
-            <p className="text-gray-400 mb-6">
-              Una plataforma que conecta excedentes de alimentos con quienes más los necesitan.
-              Combatimos el hambre y reducimos el desperdicio de alimentos.
-            </p>
+            <p className="text-gray-400 mb-6">Una plataforma que conecta la abundancia de aliemento y lo lleva donde se  necesita. Combatimos el hambre y reducimos el desperdicio de alimentos.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-conecta-green-400 transition-colors">
                 <Facebook className="h-5 w-5" />
@@ -56,15 +53,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-conecta-orange-400 mr-3 mt-0.5" />
-                <span className="text-gray-400">Av. Principal 123, Ciudad</span>
+                <span className="text-gray-400">Av. 34 Ciudad Dorada</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-conecta-orange-400 mr-3" />
-                <span className="text-gray-400">+123 456 7890</span>
+                <span className="text-gray-400">+50761677739</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-conecta-orange-400 mr-3" />
-                <span className="text-gray-400">info@comidaconecta.org</span>
+                <span className="text-gray-400">info@conecta.org</span>
               </li>
             </ul>
           </div>
