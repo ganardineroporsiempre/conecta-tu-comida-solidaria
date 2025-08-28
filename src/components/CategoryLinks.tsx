@@ -22,8 +22,8 @@ const categories = [
     href: "#hygiene" 
   },
   { 
-    name: "Bebidas", 
-    icon: <ShoppingBag className="h-6 w-6 text-conecta-green-500" />,
+    name: "Limpieza Hogar", 
+    icon: <Broom className="h-6 w-6 text-conecta-green-500" />,
     href: "#drinks" 
   },
   { 
