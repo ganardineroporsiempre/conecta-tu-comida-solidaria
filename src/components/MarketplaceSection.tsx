@@ -14,7 +14,7 @@ import {
 const regularProducts = [
   {
     id: 1,
-    name: "Pasta de Trigo Integral Orgánica 500g",
+    name: "Pasta de Trigo 500g",
     price: 2.49,
     image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
     category: "Alimentos básicos",
@@ -28,7 +28,7 @@ const regularProducts = [
   },
   {
     id: 3,
-    name: "Aceite de Oliva Extra Virgen 750ml",
+    name: "Aceite de Girasol 750ml",
     price: 8.50,
     image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
     category: "Alimentos básicos",
