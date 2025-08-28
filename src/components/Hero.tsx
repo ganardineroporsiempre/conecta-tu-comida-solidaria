@@ -34,7 +34,7 @@ const Hero = () => {
                   <span className="text-2xl">🍎</span>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-gray-800"> Frescos</p>
+                  <p className="text-sm font-semibold text-gray-800"> Alimentos Frescos</p>
                   <p className="text-xs text-gray-500">Directos del productor</p>
                 </div>
               </div>
