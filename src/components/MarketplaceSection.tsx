@@ -9,19 +9,19 @@ const regularProducts = [{
   id: 1,
   name: "Pasta de Trigo spagueti 500g",
   price: 2.49,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/172445-300-300.png",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-3.png",
   category: "Alimentos básicos"
 }, {
   id: 2,
   name: "Arroz Organico de Granja 1kg",
   price: 3.99,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/161162-300-300.png",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-4.png",
   category: "Alimentos básicos"
 }, {
   id: 3,
   name: "Aceite de Girasol 750ml",
   price: 6.50,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/157481-300-300.png",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-2.png",
   category: "Alimentos básicos"
 }, {
   id: 4,
