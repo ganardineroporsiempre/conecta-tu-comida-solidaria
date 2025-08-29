@@ -7,63 +7,63 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 // Mock data for food products
 const regularProducts = [{
   id: 1,
-  name: "Pasta de Trigo Integral Orgánica 500g",
+  name: "Pasta de Trigo spagueti 500g",
   price: 2.49,
-  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/172445-300-300.png",
   category: "Alimentos básicos"
 }, {
   id: 2,
-  name: "Arroz Basmati Premium 1kg",
+  name: "Arroz Organico de Granja 1kg",
   price: 3.99,
-  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/161162-300-300.png",
   category: "Alimentos básicos"
 }, {
   id: 3,
-  name: "Aceite de Oliva Extra Virgen 750ml",
-  price: 8.50,
-  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
+  name: "Aceite de Girasol 750ml",
+  price: 6.50,
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/157481-300-300.png",
   category: "Alimentos básicos"
 }, {
   id: 4,
-  name: "Atún en Conserva Natural Pack 3x80g",
-  price: 4.75,
-  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
+  name: "Atún en Conserva 125 gr",
+  price: 3.75,
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/157946-300-300.png",
   category: "Alimentos básicos"
 }];
 const discountedProducts = [{
   id: 5,
-  name: "Yogurt Natural Pack 4x125g",
+  name: "Lentejas por 500 gr",
   price: 1.99,
   originalPrice: 3.49,
-  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
-  category: "Lácteos",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/158062-300-300.png",
+  category: "Legimbres",
   expiryDate: "20/04/2025",
   discountPercentage: 40
 }, {
   id: 6,
-  name: "Pan de Molde Integral 500g",
+  name: "Pan de Molde  500g",
   price: 1.29,
   originalPrice: 2.15,
-  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/181635-300-300.png",
   category: "Panadería",
   expiryDate: "15/04/2025",
   discountPercentage: 35
 }, {
   id: 7,
-  name: "Ensalada Mediterránea Lista para Comer",
+  name: "Pquete de Verduras",
   price: 2.49,
   originalPrice: 4.99,
-  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design.png",
   category: "Frescos",
   expiryDate: "12/04/2025",
   discountPercentage: 50
 }, {
   id: 8,
-  name: "Zumo de Naranja Natural 1L",
+  name: "Paquete de frutas",
   price: 1.75,
   originalPrice: 2.99,
-  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
-  category: "Bebidas",
+  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-1.png",
+  category: "Frescos",
   expiryDate: "14/04/2025",
   discountPercentage: 30
 }];
