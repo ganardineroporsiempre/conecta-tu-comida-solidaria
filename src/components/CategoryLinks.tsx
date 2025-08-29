@@ -24,7 +24,7 @@ const categories = [
   { 
     name: "Limpieza Hogar", 
     icon: <Home className="h-6 w-6 text-conecta-green-500" />,
-    href: "#drinks" 
+    href: "#home" 
   },
   { 
     name: "Combos de emergencia", 
