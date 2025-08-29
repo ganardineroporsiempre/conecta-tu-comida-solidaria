@@ -12,8 +12,8 @@ const steps = [{
   color: "bg-conecta-orange-500"
 }, {
   icon: <Truck className="h-10 w-10 text-white" />,
-  title: "Enviamos ayuda",
-  description: "Nuestros aliados logísticos se encargan de que los alimentos lleguen a quienes más los necesitan.",
+  title: "Enviamos Alimentos",
+  description: "Nuestros aliados logísticos se encargan de que los alimentos lleguen a quienes  los necesitan.",
   color: "bg-conecta-green-500"
 }, {
   icon: <User className="h-10 w-10 text-white" />,
