@@ -27,9 +27,9 @@ const categories = [
     href: "#home" 
   },
   { 
-    name: "Combos de emergencia", 
+    name: "Combos Familiares", 
     icon: <Package className="h-6 w-6 text-conecta-green-500" />,
-    href: "#emergency" 
+    href: "#family" 
   },
   { 
     name: "Productos con descuento", 
