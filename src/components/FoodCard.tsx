@@ -1,5 +1,6 @@
 
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { 
   ShoppingCart, Heart, ArrowRight, 
@@ -32,6 +33,11 @@ const FoodCard: React.FC<FoodCardProps> = ({
   expiryDate,
   discountPercentage
 }) => {
+  const navigate = useNavigate();
+
+  const handleAddClick = () => {
+    navigate(`/product/${id}`);
+  };
   return (
     <Card className="card-conecta overflow-hidden flex flex-col h-full">
       <div className="relative pb-[60%] overflow-hidden">
@@ -87,6 +93,7 @@ const FoodCard: React.FC<FoodCardProps> = ({
       <CardFooter className="pt-0 pb-4 flex space-x-2">
         <Button 
           className="flex-1 btn-conecta-primary px-2 text-sm py-2 h-9"
+          onClick={handleAddClick}
         >
           <ShoppingCart className="h-4 w-4 mr-1" />
           Añadir
