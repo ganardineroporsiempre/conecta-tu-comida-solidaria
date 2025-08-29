@@ -8,8 +8,8 @@ const Hero = () => {
           <div className="space-y-6 animate-fade-in">
             <div className="inline-block bg-conecta-orange-100 text-conecta-orange-600 px-4 py-1.5 rounded-full text-sm font-semibold">PRIMER BANCO DE ALIMENTOS DIGITAL</div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
-              Compra alimentos y 
-              <span className="text-conecta-orange-500"> ayuda a quien más lo necesita</span>
+              Compra tus alimentos mientras 
+              <span className="text-conecta-orange-500"> ayuda a otros que lo necesita</span>
             </h1>
             <p className="text-gray-600 text-lg md:text-xl">Una plataforma que conecta   la abundancia de alimentos, y lo lleva donde se necesita, haciendo que el que mas tenga no le sobre, y el que menos tenga no le falte. </p>
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-4">
@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
           <div className="relative hidden md:block animate-scale-in">
             <div className="w-full h-full rounded-2xl overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9" alt="Alimentos frescos" className="w-full h-full object-cover rounded-2xl" />
+              <img src="https://drive.google.com/file/d/1oHEBq0_5Zyj7jFal1t2_IUn5y7Drd0_-/view?usp=sharing" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
               <div className="flex items-center space-x-3">
