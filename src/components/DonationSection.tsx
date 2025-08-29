@@ -125,7 +125,7 @@ const DonationSection = () => {
                 <CardContent>
                   <div className="mb-4">
                     <img
-                      src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=300&fit=crop"
+                      src="https://grupopanamarealestate.com/wp-content/uploads/2025/08/Gemini_Generated_Image_oqgv1ooqgv1ooqgv.pn?w=500&h=300&fit=crop"
                       alt="Pack familia de alimentos"
                       className="rounded-lg w-full h-36 object-cover"
                     />
