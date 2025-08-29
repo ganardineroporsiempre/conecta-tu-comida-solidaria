@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
           <div className="relative hidden md:block animate-scale-in">
             <div className="w-full h-full rounded-2xl overflow-hidden">
-              <img src="https://drive.google.com/file/d/1oHEBq0_5Zyj7jFal1t2_IUn5y7Drd0_-/view?usp=sharing" />
+              <img src="https://www.canva.com/design/DAGxZaj2Els/pQj4s-6YyJToFLISKY65Rw/edit" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
               <div className="flex items-center space-x-3">
