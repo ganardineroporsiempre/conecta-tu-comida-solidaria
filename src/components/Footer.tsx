@@ -13,7 +13,7 @@ const Footer = () => {
                 Comida<span className="text-conecta-orange-400">Conecta</span>
               </span>
             </div>
-            <p className="text-gray-400 mb-6">Una plataforma que conecta la abundancia de aliemento y lo lleva donde se  necesita. Combatimos el hambre y reducimos el desperdicio de alimentos.</p>
+            <p className="text-gray-400 mb-6">Somos una  plataforma que conecta alimentos y lo lleva a quienes mas lo   necesitan. Combatimos el hambre, la pobresa y reducimos el desperdicio de alimentos.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-conecta-green-400 transition-colors">
                 <Facebook className="h-5 w-5" />
