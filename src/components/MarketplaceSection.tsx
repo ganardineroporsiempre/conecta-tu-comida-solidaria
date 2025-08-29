@@ -7,63 +7,63 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 // Mock data for food products
 const regularProducts = [{
   id: 1,
-  name: "Pasta de Trigo spagueti 500g",
+  name: "Pasta de Trigo Integral Orgánica 500g",
   price: 2.49,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-3.png",
+  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
   category: "Alimentos básicos"
 }, {
   id: 2,
-  name: "Arroz Organico de Granja 1kg",
+  name: "Arroz Basmati Premium 1kg",
   price: 3.99,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-4.png",
+  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
   category: "Alimentos básicos"
 }, {
   id: 3,
-  name: "Aceite de Girasol 750ml",
-  price: 6.50,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-2.png",
+  name: "Aceite de Oliva Extra Virgen 750ml",
+  price: 8.50,
+  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
   category: "Alimentos básicos"
 }, {
   id: 4,
-  name: "Atún en Conserva 125 gr",
-  price: 3.75,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/157946-300-300.png",
+  name: "Atún en Conserva Natural Pack 3x80g",
+  price: 4.75,
+  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
   category: "Alimentos básicos"
 }];
 const discountedProducts = [{
   id: 5,
-  name: "Lentejas por 500 gr",
+  name: "Yogurt Natural Pack 4x125g",
   price: 1.99,
   originalPrice: 3.49,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/158062-300-300.png",
-  category: "Legimbres",
+  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
+  category: "Lácteos",
   expiryDate: "20/04/2025",
   discountPercentage: 40
 }, {
   id: 6,
-  name: "Pan de Molde  500g",
+  name: "Pan de Molde Integral 500g",
   price: 1.29,
   originalPrice: 2.15,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/181635-300-300.png",
+  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
   category: "Panadería",
   expiryDate: "15/04/2025",
   discountPercentage: 35
 }, {
   id: 7,
-  name: "Pquete de Verduras",
+  name: "Ensalada Mediterránea Lista para Comer",
   price: 2.49,
   originalPrice: 4.99,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design.png",
+  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
   category: "Frescos",
   expiryDate: "12/04/2025",
   discountPercentage: 50
 }, {
   id: 8,
-  name: "Paquete de frutas",
+  name: "Zumo de Naranja Natural 1L",
   price: 1.75,
   originalPrice: 2.99,
-  image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-1.png",
-  category: "Frescos",
+  image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=350&fit=crop",
+  category: "Bebidas",
   expiryDate: "14/04/2025",
   discountPercentage: 30
 }];
@@ -71,7 +71,7 @@ const MarketplaceSection = () => {
   return <section id="marketplace" className="py-16 bg-gray-50">
       <div className="conecta-container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nuestro Mercado </h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Haz tu mercado digital y recibelo en casa</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">Lleva a casa alimentos de calidad mientras marcas la diferencia. Con cada compra, disfrutas de productos seleccionados y al mismo tiempo ayudas a reducir el hambre de otros, dando acceso a comida a quienes más lo necesitan</p>
         </div>
 
