@@ -9,9 +9,9 @@ const Hero = () => {
             <div className="inline-block bg-conecta-orange-100 text-conecta-orange-600 px-4 py-1.5 rounded-full text-sm font-semibold">PRIMER BANCO DE ALIMENTOS DIGITAL</div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
               Compra tus alimentos mientras 
-              <span className="text-conecta-orange-500"> ayudas a otros que lo necesita</span>
+              <span className="text-conecta-orange-500"> ayudas a otros que lo necesitan</span>
             </h1>
-            <p className="text-gray-600 text-lg md:text-xl">Una plataforma que conecta   la abundancia de alimentos, y lo lleva donde se necesita, haciendo que el que mas tenga no le sobre, y el que menos tenga no le falte. </p>
+            <p className="text-gray-600 text-lg md:text-xl"> Somos una plataforma que conecta   la abundancia de alimentos, y los llevamos donde se necesitan, haciendo que el que mas tenga no le sobre, y el que menos tenga no le falte. </p>
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-4">
               <Button className="btn-conecta-primary px-6 py-3 text-base flex items-center space-x-2 sm:w-auto w-full">
                 <ShoppingBag className="h-5 w-5 mr-2" />
@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
           <div className="relative hidden md:block animate-scale-in">
             <div className="w-full h-full rounded-2xl overflow-hidden">
-              <img src="https://www.canva.com/design/DAGxZaj2Els/pQj4s-6YyJToFLISKY65Rw/edit" />
+              <img src="https://grupopanamarealestate.com/wp-content/uploads/2025/08/Gemini_Generated_Image_oqgv1ooqgv1ooqgv.png" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
               <div className="flex items-center space-x-3">
