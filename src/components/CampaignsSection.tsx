@@ -8,7 +8,7 @@ import { ArrowRight } from "lucide-react";
 const campaigns = [
   {
     id: 1,
-    title: "Alimentación para Mujeres cabeza de familia",
+    title: "Apoyo alimentario a Mujeres cabeza de familia",
     description: "Esta campaña busca proporcionar alimentos a todas las madres cabeza de familia en diferentes ciudades.",
     image: "https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-11.png",
     raised: 8500,
