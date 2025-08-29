@@ -82,7 +82,7 @@ const DonationSection = () => {
                 <CardContent>
                   <div className="mb-4">
                     <img
-                      src="https://media.istockphoto.com/id/1427666202/es/foto/un-hombre-con-una-cosecha-de-verduras-en-el-jard%C3%ADn-enfoque-selectivo.jpg?s=612x612&w=0&k=20&c=dM1bxWeaVuNuOrrvyze0Hf6MpjKzd_eecWGHdGsC4uI="
+                      src="https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-5.png"
                       alt="Pack básico de alimentos"
                       className="rounded-lg w-full h-36 object-cover"
                     />
@@ -125,7 +125,7 @@ const DonationSection = () => {
                 <CardContent>
                   <div className="mb-4">
                     <img
-                      src="https://grupopanamarealestate.com/wp-content/uploads/2025/08/Gemini_Generated_Image_oqgv1ooqgv1ooqgv.pn?w=500&h=300&fit=crop"
+                      src="https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-6.png"
                       alt="Pack familia de alimentos"
                       className="rounded-lg w-full h-36 object-cover"
                     />
@@ -165,7 +165,7 @@ const DonationSection = () => {
                 <CardContent>
                   <div className="mb-4">
                     <img
-                      src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=300&fit=crop"
+                      src="https://grupopanamarealestate.com/wp-content/uploads/2025/08/Untitled-design-7.png"
                       alt="Pack completo de alimentos"
                       className="rounded-lg w-full h-36 object-cover"
                     />
