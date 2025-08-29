@@ -89,7 +89,17 @@ const ProductDetail = () => {
   };
 
   const handleBuyNow = () => {
-    toast.success("Redirigiendo al checkout...");
+    navigate("/checkout", {
+      state: {
+        product: {
+          id: product.id,
+          name: product.name,
+          price: product.price,
+          image: product.image
+        },
+        quantity
+      }
+    });
   };
 
   const increaseQuantity = () => setQuantity(prev => prev + 1);
