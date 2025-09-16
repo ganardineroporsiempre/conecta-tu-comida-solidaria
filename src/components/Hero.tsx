@@ -13,10 +13,7 @@ const Hero = () => {
             </h1>
             <p className="text-gray-600 text-lg md:text-xl"> Somos una plataforma que conecta alimentos, con quienes mas lo necesitan, haciendo que el que mas tenga no le sobre, y el que menos tenga no le falte. </p>
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-4">
-              <Button className="btn-conecta-primary px-6 py-3 text-base flex items-center space-x-2 sm:w-auto w-full">
-                <ShoppingBag className="h-5 w-5 mr-2" />
-                <span>Comprar </span>
-              </Button>
+              
               <Button className="btn-conecta-outline px-6 py-3 text-base flex items-center space-x-2 sm:w-auto w-full">
                 <Heart className="h-5 w-5 mr-2" />
                 <span>Donar</span>
