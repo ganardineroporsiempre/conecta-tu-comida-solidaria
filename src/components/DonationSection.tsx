@@ -65,7 +65,7 @@ const DonationSection = () => {
             </TabsTrigger>
             <TabsTrigger value="subscription" className="flex items-center space-x-2">
               <CalendarClock className="h-4 w-4" />
-              <span>Suscripción Solidaria</span>
+              <span>Suscripción</span>
             </TabsTrigger>
           </TabsList>
 
