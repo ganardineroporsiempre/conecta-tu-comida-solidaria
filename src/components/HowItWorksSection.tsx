@@ -2,7 +2,7 @@ import React from "react";
 import { ShoppingBag, Heart, Truck, User } from "lucide-react";
 const steps = [{
   icon: <ShoppingBag className="h-10 w-10 text-white" />,
-  title: "Compra o dona",
+  title: "Dona",
   description: "Dona alimentos y productos a quienes lo necesitan.",
   color: "bg-conecta-green-500"
 }, {
