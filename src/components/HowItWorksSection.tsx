@@ -3,7 +3,7 @@ import { ShoppingBag, Heart, Truck, User } from "lucide-react";
 const steps = [{
   icon: <ShoppingBag className="h-10 w-10 text-white" />,
   title: "Compra o dona",
-  description: "Elige entre comprar productos con descuento para ti o donar alimentos y productos a quienes lo necesitan.",
+  description: "Dona alimentos y productos a quienes lo necesitan.",
   color: "bg-conecta-green-500"
 }, {
   icon: <Heart className="h-10 w-10 text-white" />,
@@ -18,7 +18,7 @@ const steps = [{
 }, {
   icon: <User className="h-10 w-10 text-white" />,
   title: "Genera impacto",
-  description: "Visualiza el impacto que tus compras y donaciones generan en la comunidad.",
+  description: "Visualiza el impacto de tus donaciones generan en la comunidad.",
   color: "bg-conecta-orange-500"
 }];
 const HowItWorksSection = () => {
