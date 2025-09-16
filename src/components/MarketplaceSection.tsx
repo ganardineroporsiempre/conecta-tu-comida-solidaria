@@ -72,7 +72,7 @@ const MarketplaceSection = () => {
       <div className="conecta-container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nuestro Mercado </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">Marca la diferencia. Con cada compra,  Reduce el hambre de otros, dando acceso a comida a quienes más lo necesitan</p>
+          <p className="text-gray-600 max-w-3xl mx-auto">Marca la diferencia. Con cada Donacion,  Reduces el hambre de otros, dando acceso a comida a quienes más lo necesitan</p>
         </div>
 
         <Tabs defaultValue="all" className="w-full mb-10">
