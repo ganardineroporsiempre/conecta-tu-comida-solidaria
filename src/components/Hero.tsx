@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="inline-block bg-conecta-orange-100 text-conecta-orange-600 px-4 py-1.5 rounded-full text-sm font-semibold">PRIMER BANCO DE ALIMENTOS DIGITAL</div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
               Los Alimentos nos conectan
-              <span className="text-conecta-orange-500"> Ayuda a otros que lo necesitan</span>
+              <span className="text-conecta-orange-500"> ayuda a otros que lo necesitan</span>
             </h1>
             <p className="text-gray-600 text-lg md:text-xl"> Somos una plataforma que conecta alimentos, con quienes mas lo necesitan, haciendo que el que mas tenga no le sobre, y el que menos tenga no le falte. </p>
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-4">
